@@ -19,4 +19,4 @@ for sdn in sou.findAll('a', {'target' : '_blank'}):
 		fin.append(sdn.text.strip())
 
 for sdn in fin:
-print(sdn)
+	print(sdn)
